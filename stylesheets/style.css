@@ -55,6 +55,115 @@ a {
 	02 General 	
 
 -------------*/
+@font-face {
+  font-family: 'monument_extendedultrabold';
+  src: url('../webfonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+       url('../webfonts/monumentextended-ultrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'monument_extendedregular';
+  src: url('../webfonts/monumentextended-regular-webfont.woff2') format('woff2'),
+       url('../webfonts/monumentextended-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditaregular';
+  src: url('../webfonts/gordita-regular-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditabold';
+  src: url('../webfonts/gordita-bold-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditablack';
+  src: url('../webfonts/gordita-black-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditamedium';
+  src: url('../webfonts/gordita-medium-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditalight_italic';
+  src: url('../webfonts/gordita-lightitalic-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditaitalic';
+  src: url('../webfonts/gordita-regularitalic-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-regularitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gorditamedium_italic';
+  src: url('../webfonts/gordita-mediumitalic-webfont.woff2') format('woff2'),
+       url('../webfonts/gordita-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/*-----------
+
+	02 General 	
+
+-------------*/
 html, body {
   font-size: 16px;
   font-family: "Gordita", sans-serif;

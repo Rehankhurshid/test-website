@@ -57,8 +57,8 @@ a {
 -------------*/
 @font-face {
   font-family: 'monument_extendedultrabold';
-  src: url('webfonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
-       url('webfonts/monumentextended-ultrabold-webfont.woff') format('woff');
+  src: url('/webfonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+       url('/webfonts/monumentextended-ultrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 

@@ -158,7 +158,7 @@ a {
 -------------*/
 html, body {
   font-size: 16px;
-  font-family: "gorditamedium", sans-serif;
+  font-family: "Gordita", sans-serif;
   letter-spacing: 1px;
   font-weight: medium;
   color: #31353a;
@@ -192,7 +192,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #31353a;
   font-weight: regular;
-  font-family: "gorditamedium", sans-serif; }
+  font-family: "Gordita", sans-serif; }
 
 h1 {
   font-weight: 100;
@@ -202,7 +202,7 @@ h1 {
       font-size: 3em; } }
 
 h2 {
-  font-family: "gorditamedium", sans-serif;
+  font-family: "Gordita", sans-serif;
   text-transform: uppercase;
   font-size: 2em; }
   @media screen and (min-width: 1450px) {
@@ -1615,8 +1615,7 @@ body.bottom-nav header {
   position: relative;
   font-weight: medium;
   font-size: 2em;
-  font-family: 'monument_extendedultrabold';
-  line-height: 1.4em;
+  font-family: 'Monument Extended';
 }
 
 .ml4 .letters-1 {
@@ -1635,11 +1634,11 @@ body.bottom-nav header {
 }
 
 .monument {
-  font-family: 'monument_extendedultrabold';
+  font-family: 'Monument Extended';
 }
 
 a {
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
 }
 
 .social-links {

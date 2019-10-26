@@ -77,8 +77,6 @@ a {
 }
 
 
-
-
 @font-face {
   font-family: 'gorditaregular';
   src: url('../webfonts/gordita-regular-webfont.woff2') format('woff2'),
@@ -1641,7 +1639,7 @@ body.bottom-nav header {
 }
 
 a {
-  font-family: "monument_extendedultrabold";
+  font-family: "monument_extendedregular";
 }
 
 .social-links {

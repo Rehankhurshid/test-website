@@ -901,7 +901,7 @@ footer a.icon {
     width: auto;
     display: inline-block; }
   .profile .description h4 {
-    font-family: "Gordita", sans-serif;
+    font-family: "monumentextended_regular", sans-serif;
     text-transform: uppercase; }
   .profile .description .social .icon {
     margin: 10px;
@@ -987,13 +987,13 @@ blockquote {
   padding: 0 80px;
   margin: 20px 0;
   font-size: 1.3em;
-  font-family: "Roboto", sans-serif; }
+  font-family: "monumentextended_regular", sans-serif; }
   blockquote:before, blockquote:after {
     position: absolute;
     top: 0;
     font-weight: 300;
     font-size: 3em;
-    font-family: Georgia, serif;
+    font-family: monumentextended_regular, serif;
     color: #ccc; }
   blockquote:after {
     content: '”';
@@ -1430,7 +1430,7 @@ body.bottom-nav header {
       top: 15px;
       left: 25px;
       right: 25px;
-      font-family: "Gordita", sans-serif;
+      font-family: "monumentextended_regular", sans-serif;
       text-transform: uppercase; }
     .item .caption .titles {
       position: absolute;
@@ -1447,7 +1447,7 @@ body.bottom-nav header {
       -o-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
       .item .caption .titles .subtitle {
-        font-family: "Roboto", sans-serif; }
+        font-family: "monumentextended_regular", sans-serif; }
       .item .caption .titles .title {
         -webkit-transition: color 1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
         -moz-transition: color 1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -1641,11 +1641,11 @@ body.bottom-nav header {
 }
 
 .monument {
-  font-family: 'Monument Extended';
+  font-family: 'monumentextended_bold';
 }
 
 a {
-  font-family: "Monument Extended";
+  font-family: "monumentextended_regular";
 }
 
 .social-links {

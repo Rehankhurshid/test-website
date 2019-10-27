@@ -1,4 +1,39 @@
 @charset "UTF-8";
+/*
+
+Be CSS
+Version 1.1
+Made by Themanoid
+
+	TABLE OF CONTENTS
+	_________________
+
+	00. Imports
+	01. Presets
+	02. General
+	03. Typography
+	04. Layout
+	05. Elements
+	06. Modes
+	07. Portfolio
+  
+  
+*/
+
+
+
+/*-----------	
+
+ 	00 Imports 	
+
+-------------*/
+@import url("tera-slider.css");
+@import url("tera-lightbox.css");
+/*-----------	
+
+ 	01 Presets 	
+
+-------------*/
 
 @font-face {
   font-family: 'monument_extendedultrabold';
@@ -96,37 +131,7 @@
   font-style: normal;
 
 }
-/*
 
-Be CSS
-Version 1.1
-Made by Themanoid
-
-	TABLE OF CONTENTS
-	_________________
-
-	00. Imports
-	01. Presets
-	02. General
-	03. Typography
-	04. Layout
-	05. Elements
-	06. Modes
-	07. Portfolio
-	
-*/
-/*-----------	
-
- 	00 Imports 	
-
--------------*/
-@import url("tera-slider.css");
-@import url("tera-lightbox.css");
-/*-----------	
-
- 	01 Presets 	
-
--------------*/
 ::selection {
   background: none; }
 
@@ -136,9 +141,7 @@ Made by Themanoid
 * {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  outline: none; 
-  font-family: 'gorditaregular';
-}
+  outline: none; }
 
 ::-moz-focus-inner {
   border: 0; }
@@ -196,7 +199,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #31353a;
   font-weight: regular;
-  font-family: "Gordita", sans-serif; }
+  font-family: "monumentextended_ultrabold", sans-serif; }
 
 h1 {
   font-weight: 100;
@@ -206,7 +209,7 @@ h1 {
       font-size: 3em; } }
 
 h2 {
-  font-family: "Gordita", sans-serif;
+  font-family: "monumentextended_ultrabold", sans-serif;
   text-transform: uppercase;
   font-size: 2em; }
   @media screen and (min-width: 1450px) {
@@ -220,7 +223,7 @@ h4 {
   margin-top: 20px; }
 
 p {
-  font-family: "Gordita", sans-serif;
+  font-family: "gorditablack", sans-serif;
   line-height: 1.7em;
   margin: 15px 0; }
 
@@ -526,7 +529,7 @@ footer a.icon {
             text-align: right;
             font-weight: 300;
             color: #fff;
-            font-family: "Gordita", sans-serif;
+            font-family: "monumentextended_regular", sans-serif;
             text-transform: uppercase;
             -webkit-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
             -moz-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);

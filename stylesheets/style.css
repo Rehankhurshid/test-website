@@ -1,62 +1,5 @@
 @charset "UTF-8";
-/*
 
-Be CSS
-Version 1.1
-Made by Themanoid
-
-	TABLE OF CONTENTS
-	_________________
-
-	00. Imports
-	01. Presets
-	02. General
-	03. Typography
-	04. Layout
-	05. Elements
-	06. Modes
-	07. Portfolio
-	
-*/
-/*-----------	
-
- 	00 Imports 	
-
--------------*/
-@import url("tera-slider.css");
-@import url("tera-lightbox.css");
-/*-----------	
-
- 	01 Presets 	
-
--------------*/
-::selection {
-  background: none; }
-
-::-moz-selection {
-  background: none; }
-
-* {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  outline: none; 
-  font-family: 'gorditaregular';
-}
-
-::-moz-focus-inner {
-  border: 0; }
-
-:focus {
-  outline: none; }
-
-a {
-  outline: medium none !important; }
-
-/*-----------
-
-	02 General 	
-
--------------*/
 @font-face {
   font-family: 'monument_extendedultrabold';
   src: url('../webfonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
@@ -153,6 +96,65 @@ a {
   font-style: normal;
 
 }
+/*
+
+Be CSS
+Version 1.1
+Made by Themanoid
+
+	TABLE OF CONTENTS
+	_________________
+
+	00. Imports
+	01. Presets
+	02. General
+	03. Typography
+	04. Layout
+	05. Elements
+	06. Modes
+	07. Portfolio
+	
+*/
+/*-----------	
+
+ 	00 Imports 	
+
+-------------*/
+@import url("tera-slider.css");
+@import url("tera-lightbox.css");
+/*-----------	
+
+ 	01 Presets 	
+
+-------------*/
+::selection {
+  background: none; }
+
+::-moz-selection {
+  background: none; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  outline: none; 
+  font-family: 'gorditaregular';
+}
+
+::-moz-focus-inner {
+  border: 0; }
+
+:focus {
+  outline: none; }
+
+a {
+  outline: medium none !important; }
+
+/*-----------
+
+	02 General 	
+
+-------------*/
+
 /*-----------
 
 	02 General 	

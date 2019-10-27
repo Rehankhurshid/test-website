@@ -39,7 +39,9 @@ Made by Themanoid
 * {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  outline: none; }
+  outline: none; 
+  font-family: 'gorditaregular';
+}
 
 ::-moz-focus-inner {
   border: 0; }

@@ -1719,4 +1719,6 @@ footer p {
 
 @media screen and (max-width: 621px) {
   #animated-text-header {
-    margin-top: 209px; } }
+    margin-top: 209px; 
+    font-size: 1em;
+  } }

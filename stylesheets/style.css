@@ -1716,3 +1716,7 @@ footer p {
     from { background-position: 0 0; }
     to { background-position: -400px 0; }
 }
+
+@media screen and (max-width: 621px) {
+  #animated-text-header {
+    margin-top: 209px; } }

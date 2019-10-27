@@ -1356,7 +1356,8 @@ body.top-nav {
     body.top-nav header .menu-trigger .bar {
       background: #fff; }
     body.top-nav header .brand {
-      background-position: top center; }
+      background-position: top center;
+     }
   @media screen and (max-width: 992px) {
     body.top-nav {
       padding-top: 58px; }

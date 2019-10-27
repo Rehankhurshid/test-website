@@ -199,7 +199,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #31353a;
   font-weight: regular;
-  font-family: "monumentextended_ultrabold", sans-serif; }
+  font-family: "monument_extendedultrabold", sans-serif; }
 
 h1 {
   font-weight: 100;
@@ -209,7 +209,7 @@ h1 {
       font-size: 3em; } }
 
 h2 {
-  font-family: "monumentextended_ultrabold", sans-serif;
+  font-family: "monument_extendedultrabold", sans-serif;
   text-transform: uppercase;
   font-size: 2em; }
   @media screen and (min-width: 1450px) {
@@ -217,6 +217,7 @@ h2 {
       font-size: 1.8em; } }
 
 h3 {
+  font-family: monument_extendedregular;
   font-size: 1.3em; }
 
 h4 {
@@ -529,7 +530,7 @@ footer a.icon {
             text-align: right;
             font-weight: 300;
             color: #fff;
-            font-family: "monumentextended_regular", sans-serif;
+            font-family: "monument_extendedregular", sans-serif;
             text-transform: uppercase;
             -webkit-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
             -moz-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -901,7 +902,7 @@ footer a.icon {
     width: auto;
     display: inline-block; }
   .profile .description h4 {
-    font-family: "monumentextended_regular", sans-serif;
+    font-family: "monument_extendedregular", sans-serif;
     text-transform: uppercase; }
   .profile .description .social .icon {
     margin: 10px;
@@ -987,13 +988,13 @@ blockquote {
   padding: 0 80px;
   margin: 20px 0;
   font-size: 1.3em;
-  font-family: "monumentextended_regular", sans-serif; }
+  font-family: "monument_extendedregular", sans-serif; }
   blockquote:before, blockquote:after {
     position: absolute;
     top: 0;
     font-weight: 300;
     font-size: 3em;
-    font-family: monumentextended_regular, serif;
+    font-family: 'monument_extendedregular', serif;
     color: #ccc; }
   blockquote:after {
     content: '”';
@@ -1430,7 +1431,7 @@ body.bottom-nav header {
       top: 15px;
       left: 25px;
       right: 25px;
-      font-family: "monumentextended_regular", sans-serif;
+      font-family: "monument_extended_regular", sans-serif;
       text-transform: uppercase; }
     .item .caption .titles {
       position: absolute;
@@ -1447,7 +1448,7 @@ body.bottom-nav header {
       -o-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
       .item .caption .titles .subtitle {
-        font-family: "monumentextended_regular", sans-serif; }
+        font-family: "monument_extendedregular", sans-serif; }
       .item .caption .titles .title {
         -webkit-transition: color 1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
         -moz-transition: color 1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -1641,11 +1642,11 @@ body.bottom-nav header {
 }
 
 .monument {
-  font-family: 'monumentextended_bold';
+  font-family: 'monument_extendedultrabold';
 }
 
 a {
-  font-family: "monumentextended_regular";
+  font-family: "monument_extendedregular";
 }
 
 .social-links {

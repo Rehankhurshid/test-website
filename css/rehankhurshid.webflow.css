@@ -1336,6 +1336,7 @@ strong {
   text-decoration: none;
   cursor: pointer;
   object-fit: cover;
+  -o-object-fit: cover;
 }
 
 .image-8 {
@@ -3073,6 +3074,7 @@ strong {
    
     object-fit: cover;
     object-position: top;
+    -o-object-fit: cover;
   }
 
   .section-contact {

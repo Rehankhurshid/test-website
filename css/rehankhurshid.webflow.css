@@ -1335,6 +1335,7 @@ strong {
   background-color: #f2f4f6;
   text-decoration: none;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .image-8 {
@@ -1347,6 +1348,8 @@ strong {
   margin-bottom: -33%;
   -o-object-fit: cover;
   object-fit: cover;
+  object-fit: cover;
+  object-position: top;
 }
 
 .image-8.is--proper {
@@ -3067,8 +3070,9 @@ strong {
   }
 
   .image-8 {
-    -o-object-fit: contain;
-    object-fit: contain;
+   
+    object-fit: cover;
+    object-position: top;
   }
 
   .section-contact {

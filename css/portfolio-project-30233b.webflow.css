@@ -34,7 +34,6 @@ h2 {
 h3 {
   margin-top: 40px;
   margin-bottom: 16px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   color: #1b1b1b;
   font-size: 1em;
   line-height: 1;
@@ -44,7 +43,6 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.25;
   font-weight: 700;
@@ -57,7 +55,6 @@ h5 {
   margin-bottom: 0px;
   padding: 8px 16px;
   background-color: #f4f4f4;
-  font-family: Basisgrotesque, Arial, sans-serif;
   color: #000;
   font-size: 24px;
   line-height: 32px;
@@ -76,7 +73,6 @@ h6 {
 
 p {
   margin-bottom: 10px;
-  font-family: Basisgrotesque, Arial, sans-serif;
 }
 
 a {
@@ -260,7 +256,6 @@ strong {
   width: 100%;
   margin-top: 4px;
   margin-bottom: 8px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   color: #1b1b1b;
   font-size: 1.25em;
   line-height: 1.25;
@@ -360,7 +355,6 @@ strong {
 .steptitle-1 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   font-size: 1.25em;
   line-height: 1.25;
   font-weight: 700;
@@ -393,7 +387,6 @@ strong {
 .timeline-tag {
   display: inline-block;
   margin-right: 8px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   color: #1b1b1b;
   font-size: 1em;
   line-height: 1.25;
@@ -493,7 +486,6 @@ strong {
 
 .startup-richtext {
   margin-top: 0px;
-  padding-left: 6%;
   font-family: Basisgrotesque, Arial, sans-serif;
   color: #1b1b1b;
   font-size: 1em;
@@ -528,7 +520,7 @@ strong {
 .body {
   overflow: auto;
   background-color: #fff;
-  font-family: Basisgrotesque, Arial, sans-serif;
+  font-family: Thicccboi, sans-serif;
   color: #1b1b1b;
   font-size: 21px;
   line-height: 1.333;
@@ -539,11 +531,11 @@ strong {
   width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Basisgrotesque, Arial, sans-serif;
+  font-family: Thicccboi, sans-serif;
   color: #1b1b1b;
   font-size: 3vw;
   line-height: 1.25;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .title-heading.next {
@@ -1335,8 +1327,6 @@ strong {
   background-color: #f2f4f6;
   text-decoration: none;
   cursor: pointer;
-  object-fit: cover;
-  -o-object-fit: cover;
 }
 
 .image-8 {
@@ -1349,8 +1339,6 @@ strong {
   margin-bottom: -33%;
   -o-object-fit: cover;
   object-fit: cover;
-  object-fit: cover;
-  object-position: top;
 }
 
 .image-8.is--proper {
@@ -1831,6 +1819,7 @@ strong {
 .section-titke.startups {
   height: 28px;
   margin-left: 0px;
+  font-weight: 600;
 }
 
 .lottie-animation {
@@ -2445,7 +2434,6 @@ strong {
   width: 100%;
   margin-top: 2em;
   margin-bottom: 0px;
-  font-family: Basisgrotesque, Arial, sans-serif;
   color: #1b1b1b;
   font-size: 2vw;
   line-height: 1.25;
@@ -2540,6 +2528,14 @@ strong {
 
 .paragraph {
   text-align: center;
+}
+
+.project__img {
+  width: 100%;
+}
+
+.is--pb-med {
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3071,10 +3067,10 @@ strong {
   }
 
   .image-8 {
-   
-    object-fit: cover;
-    object-position: top;
     -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
   }
 
   .section-contact {
@@ -4899,6 +4895,62 @@ strong {
 }
 
 @font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Bold.ttf') format('truetype'), url('../fonts/THICCCBOI-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi thicccaf';
+  src: url('../fonts/THICCCBOI-ThicccAF.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('../fonts/THICCCBOI-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Basisgrotesque';
   src: url('../fonts/BasisGrotesque-Regular.otf') format('opentype');
   font-weight: 400;
@@ -4932,39 +4984,4 @@ strong {
   font-weight: 400;
   font-style: normal;
   font-display: auto;
-}
-@font-face {
-  font-family: 'Gatwick';
-  src: url('../fonts/Gatwick-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Gatwick';
-  src: url('../fonts/Gatwick-Bold.otf') format('opentype'), url('../fonts/Gatwick-Ultrabold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Gatwick';
-  src: url('../fonts/Gatwick-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Gatwick';
-  src: url('../fonts/Gatwick-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Gatwick';
-  src: url('../fonts/Gatwick-Ultralight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
 }

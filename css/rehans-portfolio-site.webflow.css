@@ -908,6 +908,7 @@ a {
 }
 
 .text-white {
+  opacity: 1;
   color: #fff;
 }
 
@@ -1358,6 +1359,10 @@ a {
   align-items: center;
 }
 
+.wrapper.flex-vertical.margin-l {
+  margin-bottom: 2rem;
+}
+
 .success-message-text {
   color: #fff;
   font-size: 16px;
@@ -1369,6 +1374,10 @@ a {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: -0.4px;
+}
+
+.paragraph-m.text-white.text-muted {
+  color: hsla(0, 0%, 100%, 0.4);
 }
 
 .div-block-26 {
